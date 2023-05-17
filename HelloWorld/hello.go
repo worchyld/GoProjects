@@ -12,4 +12,8 @@ func main() {
 	sum := x + y
 
 	fmt.Println(sum)
+
+	if sum > 10 {
+		fmt.Println("More than 10")
+	}
 }
