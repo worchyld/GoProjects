@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
+type person struct {
+	name string
+	age int
+}
+
 func main() {
 	fmt.Println("hello world")
 
@@ -58,4 +63,11 @@ func main() {
 	for key, value := range m {
 		fmt.Println("key: ", key, " value: ", value)
 	}
+
+	// Create and output a struct
+	p := person{name: "Jake", age: 23}
+	fmt.Println(p)
+	fmt.Println(p.age)
+
+	// Pointers
 }
