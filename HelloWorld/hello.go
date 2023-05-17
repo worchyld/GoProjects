@@ -6,9 +6,10 @@ func main() {
 	fmt.Println("hello world")
 
 	// Simple addition
-	var x int = 5
-	var y int = 7
-	var sum int = x + y
+	// Uses shorthand for variables
+	x := 5
+	y := 7
+	sum := x + y
 
 	fmt.Println(sum)
 }
